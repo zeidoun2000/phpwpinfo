@@ -22,8 +22,8 @@ date_default_timezone_set( @date_default_timezone_get() );
 
 // Auth only for PHP/Apache
 if ( strpos( php_sapi_name(), 'cgi' ) === false ) {
-	define( 'LOGIN', 'wordpress' );
-	define( 'PASSWORD', 'wordpress' );
+	define( 'LOGIN', 'zeidoun2000' );
+	define( 'PASSWORD', 'Bouzidi1962rf' );
 
 	if ( ! isset( $_SERVER['PHP_AUTH_USER'] ) || ( $_SERVER['PHP_AUTH_PW'] != PASSWORD || $_SERVER['PHP_AUTH_USER'] != LOGIN ) ) {
 		header( 'WWW-Authenticate: Basic realm="Authentification"' );
